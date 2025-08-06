@@ -1,0 +1,64 @@
+.buttoncontainer{
+    width: 100%;
+    height: 15vh;
+    /* background-color: #5FBDFF; */
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    bottom: 2rem;
+    /* left: 1.5rem; */
+    z-index: 0;
+}
+
+.buttoncontainerrapper{
+    width: 95%;
+    height: 15vh;
+    /* background-color: darkcyan; */
+}
+
+.buttonrapper{
+    width: 31%;
+    height: 15vh;
+    /* background-color: violet; */
+    gap: 30px;
+    display: flex;
+    align-items: center;
+}
+
+.Watach{
+    width: 43%;
+    height: 7vh;
+    border-radius: 20px;
+    border: 1.5px solid #5FBDFF;
+    color: #5FBDFF;
+    cursor: pointer;
+    font-family: Poppins, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.Watach:hover{
+    background-color: #5FBDFF;
+    color: #eeeeee;
+}
+
+.trailer{
+    width: 43%;
+    height: 7vh;
+    border-radius: 20px;
+    border: 1.5px solid #ffffff80;
+    color: #ffffff80;
+    cursor: pointer;
+    font-family: Poppins, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+}
+
+.trailer:hover{
+    background-color: #eeeeee;
+    color: black;
+}
